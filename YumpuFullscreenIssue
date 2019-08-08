@@ -1,0 +1,19 @@
+/The following is the default Yumpu dashboard iFrame code. This code does work when we include disableMobileFullscreen=“true” but when doing so, Yumpu no longer allows the fullscreen format when using desktop and laptop computers
+
+<iframe width="620px" height="566px" src="https://www.yumpu.com/en/embed/view/kQitnKSPeMqgF4Ef" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe>
+
+/The following is the default Yumpu dashboard Javascript code. We cannot figure out where to put the disableMobileFullscreen=“true” snippet of code within the Javascript code as everything we try does not work
+
+<script src="https://players.yumpu.com/hub.js"> </script>
+
+<script>
+var myYumpu = new Yumpu();
+myYumpu.create_player("#yumpuMagazineContainer", "", { lang:"en", embed_id:"kQitnKSPeMqgF4Ef", embedded:true } );
+</script>
+
+/The following is the default Yumpu dashboard Responsive iFrame code. We cannot figure out where to put the disableMobileFullscreen=“true” snippet of code within the Responsive iFrame code as everything we try does not work
+
+<style>.embed-container { position: relative; padding-bottom:56.25%; height:0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}</style>
+
+<iframe src="https://www.yumpu.com/en/embed/view/kQitnKSPeMqgF4Ef" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe>
+<script src='https://players.yumpu.com/modules/embed/yp_r_iframe.js' ></script>
